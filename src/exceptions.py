@@ -1,8 +1,7 @@
 import sys
-import logging
-# from src import logger
+from logger import logging
 
-# logging = logger.get_logger(__name__)
+logging = logging.getLogger(__name__)
 
 def error(eror, error_detail : sys):
     _, _, exc_tb = error_detail.exc_info()

@@ -1,4 +1,9 @@
 numpy
 fastapi
 pandas
--e .
+scikit-learn
+seaborn
+matplotlib
+catboost
+xgboost
+# -e .
